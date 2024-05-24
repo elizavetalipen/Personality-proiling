@@ -1,0 +1,15 @@
+
+<div class="image-container">
+    <img src="{{ image_name }}" class="img-fluid img-thumbnail">
+    <div class="quote">
+        <p style="font-size: 18px; font-style: italic;">{{ quote }}</p>
+    </div>
+</div>
+<label for="input-description" style="font-weight: bold; font-size: 20px;">
+    Personality Description:
+</label>
+<p  style="font-size: 16px;">{{ prediction }}
+    {% if link %}
+        <a href="{{ link }}">Read more</a>
+    {% endif %}
+</p>

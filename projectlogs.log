@@ -1,0 +1,2001 @@
+2024-04-28 16:32:07,091 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 16:32:48,723 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 16:32:48,845 [INFO] [django.server:212] [log_message] "GET /static/style.css HTTP/1.1" 304 0
+2024-04-28 16:32:49,893 [WARNING] [django.request:241] [log_response] Not Found: /favicon.ico
+2024-04-28 16:32:49,893 [WARNING] [django.server:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4048
+2024-04-28 16:32:52,555 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 16:32:52,620 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/default.jpg HTTP/1.1" 304 0
+2024-04-28 16:33:08,673 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8183
+2024-04-28 16:43:20,766 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 16:43:52,355 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 16:43:55,241 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 16:45:02,024 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 16:55:18,478 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 16:57:29,404 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 16:58:07,107 [INFO] [django.server:81] [handle_error] - Broken pipe from ('127.0.0.1', 60338)
+2024-04-28 16:58:30,695 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 16:59:26,913 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 16:59:28,654 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 18:00:00,581 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:00:36,124 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:00:37,925 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 18:00:41,107 [ERROR] [mlmodel.views:32] [wrapper] NameError: name 'posts' is not defined at 2024-04-28 18:00:41.107604
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 155, in predict_view
+    return render(request, 'modal_content.html', {'posts': posts})
+                                                           ^^^^^
+NameError: name 'posts' is not defined
+2024-04-28 18:00:41,183 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-28 18:00:57,412 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:01:01,521 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:01:25,848 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:01:27,253 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 18:01:31,667 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 577
+2024-04-28 18:01:38,798 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 18:02:24,048 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:02:28,638 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:03:03,938 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:03:07,026 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 18:03:10,856 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 577
+2024-04-28 18:03:15,835 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 18:10:48,638 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:10:50,183 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8082
+2024-04-28 18:10:53,281 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 1972
+2024-04-28 18:11:31,180 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8102
+2024-04-28 18:18:39,146 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:18:43,982 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:19:10,164 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:19:11,425 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8844
+2024-04-28 18:19:17,878 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 68
+2024-04-28 18:19:25,492 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8844
+2024-04-28 18:20:02,058 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:20:06,645 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:22:18,095 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:22:19,528 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8844
+2024-04-28 18:22:22,078 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8945
+2024-04-28 18:22:23,945 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8945
+2024-04-28 18:22:28,276 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8945
+2024-04-28 18:23:28,896 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8950
+2024-04-28 18:29:42,894 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:29:44,440 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 9259
+2024-04-28 18:29:48,026 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 9360
+2024-04-28 18:29:49,542 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 9360
+2024-04-28 18:35:10,653 [INFO] [django.server:212] [log_message] "GET /register/ HTTP/1.1" 200 4571
+2024-04-28 18:35:12,511 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:35:13,939 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 9259
+2024-04-28 18:46:13,413 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:46:14,745 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8542
+2024-04-28 18:46:17,845 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8593
+2024-04-28 18:46:19,395 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8593
+2024-04-28 18:46:48,910 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:46:53,354 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:47:14,311 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:47:16,951 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:47:36,634 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:47:39,821 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:48:06,316 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:48:07,550 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8542
+2024-04-28 18:48:10,669 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8593
+2024-04-28 18:48:11,835 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8593
+2024-04-28 18:49:10,098 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8562
+2024-04-28 18:49:26,358 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8562
+2024-04-28 18:51:14,041 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:51:18,598 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:52:22,345 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:52:23,828 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8542
+2024-04-28 18:52:26,397 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8643
+2024-04-28 18:52:28,230 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8643
+2024-04-28 18:52:50,680 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:52:52,041 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8542
+2024-04-28 18:52:54,456 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8593
+2024-04-28 18:53:23,302 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\urls.py changed, reloading.
+2024-04-28 18:53:28,427 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:54:13,675 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:54:15,019 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8169
+2024-04-28 18:54:17,039 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8220
+2024-04-28 18:54:19,122 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8220
+2024-04-28 18:55:21,482 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:55:25,794 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:55:48,528 [INFO] [django.server:212] [log_message] "GET /register/ HTTP/1.1" 200 4571
+2024-04-28 18:55:52,287 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:55:53,925 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8169
+2024-04-28 18:55:55,864 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8220
+2024-04-28 18:55:57,481 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8220
+2024-04-28 18:56:49,854 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 18:56:50,972 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 18:56:53,360 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8168
+2024-04-28 18:56:54,374 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8168
+2024-04-28 18:56:55,373 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8168
+2024-04-28 18:59:26,845 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 18:59:31,310 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 18:59:58,768 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:00:04,940 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:00:07,694 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 634
+2024-04-28 19:00:10,140 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8137
+2024-04-28 19:03:32,560 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2173
+2024-04-28 19:05:04,680 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:05:55,520 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:05:57,183 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:06:00,192 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4015
+2024-04-28 19:07:50,789 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:07:52,186 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:07:54,321 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3938
+2024-04-28 19:08:19,034 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:08:19,983 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:08:22,986 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 1777
+2024-04-28 19:10:37,380 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3092
+2024-04-28 19:10:40,539 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8137
+2024-04-28 19:10:43,292 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3092
+2024-04-28 19:12:00,613 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:12:05,653 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:12:34,047 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:12:35,289 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:12:37,734 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4172
+2024-04-28 19:14:01,627 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:14:06,400 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:14:40,618 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:14:41,855 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:14:43,852 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 9472
+2024-04-28 19:15:49,330 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 9472
+2024-04-28 19:16:26,660 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 9498
+2024-04-28 19:17:57,434 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:18:02,925 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:18:43,541 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:18:44,531 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:18:46,766 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10530
+2024-04-28 19:19:53,458 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10523
+2024-04-28 19:20:47,376 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10547
+2024-04-28 19:23:31,408 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 9414
+2024-04-28 19:24:08,577 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:24:13,377 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:24:39,485 [INFO] [django.server:212] [log_message] "GET /register/ HTTP/1.1" 200 4571
+2024-04-28 19:24:40,369 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:24:41,668 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:24:44,171 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10094
+2024-04-28 19:25:33,454 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:25:34,829 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8117
+2024-04-28 19:25:37,266 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10732
+2024-04-28 19:26:09,527 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10732
+2024-04-28 19:26:34,974 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10732
+2024-04-28 19:27:38,241 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10732
+2024-04-28 19:28:33,632 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10837
+2024-04-28 19:29:12,081 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10956
+2024-04-28 19:29:34,450 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10956
+2024-04-28 19:30:50,603 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11012
+2024-04-28 19:31:18,585 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11208
+2024-04-28 19:32:44,197 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11208
+2024-04-28 19:33:28,619 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11208
+2024-04-28 19:34:06,256 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11208
+2024-04-28 19:34:37,603 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11208
+2024-04-28 19:35:07,836 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11201
+2024-04-28 19:36:53,206 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11229
+2024-04-28 19:37:15,376 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11219
+2024-04-28 19:37:32,922 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11223
+2024-04-28 19:37:47,655 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11219
+2024-04-28 19:38:20,701 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11219
+2024-04-28 19:38:40,269 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11184
+2024-04-28 19:39:16,197 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11200
+2024-04-28 19:42:28,730 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:42:33,567 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:44:22,884 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:44:28,236 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:46:40,080 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:46:44,668 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:47:09,175 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:47:10,401 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-28 19:47:12,722 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11246
+2024-04-28 19:47:17,258 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 7917
+2024-04-28 19:47:38,009 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11246
+2024-04-28 19:47:43,357 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 7917
+2024-04-28 19:50:16,122 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:50:21,882 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:50:48,357 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:50:50,715 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-28 19:50:53,625 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11246
+2024-04-28 19:50:57,792 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8463
+2024-04-28 19:50:57,885 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/intp.jpg HTTP/1.1" 304 0
+2024-04-28 19:51:06,152 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11246
+2024-04-28 19:53:03,563 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:53:07,936 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-28 19:53:32,758 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-28 19:53:34,027 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-28 19:53:36,828 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11246
+2024-04-28 19:53:42,856 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8603
+2024-04-28 19:53:43,114 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/infj.jpg HTTP/1.1" 200 47755
+2024-04-28 19:53:45,913 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11246
+2024-04-28 19:53:53,927 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8415
+2024-04-28 19:53:54,024 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/estj.jpg HTTP/1.1" 200 44848
+2024-04-28 19:54:55,623 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-28 19:55:00,325 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 16:21:53,614 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 16:25:18,798 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 16:25:51,445 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 16:25:54,062 [WARNING] [django.request:241] [log_response] Not Found: /favicon.ico
+2024-04-30 16:25:54,079 [WARNING] [django.server:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4048
+2024-04-30 16:25:55,410 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:25:55,480 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/default.jpg HTTP/1.1" 304 0
+2024-04-30 16:26:23,940 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 16:26:35,942 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:26:58,156 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 16:27:02,874 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 16:28:06,451 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 16:28:07,575 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:28:13,119 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4117
+2024-04-30 16:28:14,749 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:28:20,133 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 16:28:31,375 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-04-30 16:28:35,940 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 16:29:18,427 [INFO] [django.server:212] [log_message] "GET /register/ HTTP/1.1" 200 4571
+2024-04-30 16:29:19,414 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 16:29:20,573 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:29:26,727 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 16:29:32,884 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 16:33:06,080 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:33:13,542 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 16:33:21,170 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:33:36,270 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 16:33:38,317 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:46:55,233 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 16:47:26,082 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 16:47:29,266 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:47:36,268 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 16:49:19,997 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:49:26,269 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 16:49:30,971 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 16:50:33,677 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 16:50:38,352 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 16:52:35,309 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:52:50,289 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 16:52:52,286 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 16:56:22,661 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 16:56:46,166 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 16:56:50,842 [ERROR] [mlmodel.views:32] [wrapper] ValueError: You need to specify either account, group, or post_urls at 2024-04-30 16:56:50.842230
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 177, in predict_view
+    posts = scrape_facebook(str(input_link), 20)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 77, in scrape_facebook
+    for post in get_posts(username, 10):
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\__init__.py", line 189, in get_posts
+    raise ValueError("You need to specify either account, group, or post_urls")
+ValueError: You need to specify either account, group, or post_urls
+2024-04-30 16:56:50,906 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 16:59:56,141 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 17:00:00,653 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 17:00:26,322 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 17:00:27,453 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 17:00:33,786 [ERROR] [mlmodel.views:32] [wrapper] LoginRequired: A login (cookies) is required to see this page at 2024-04-30 17:00:33.786157
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 177, in predict_view
+    posts = scrape_facebook(str(input_link), 20)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 79, in scrape_facebook
+    for post in get_posts(username, base_url=burl, start_url= surl,pages=10):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\facebook_scraper.py", line 1132, in _generic_get_posts
+    for i, page in zip(counter, iter_pages_fn()):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\page_iterators.py", line 95, in generic_iter_pages
+    response = request_fn(next_url)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\facebook_scraper.py", line 960, in get
+    raise exceptions.LoginRequired(
+facebook_scraper.exceptions.LoginRequired: A login (cookies) is required to see this page
+2024-04-30 17:00:33,809 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 17:07:45,376 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 17:07:49,559 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 17:08:13,365 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 17:08:15,265 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 17:08:22,999 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 17:08:30,761 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 17:10:02,397 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 17:10:10,355 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 17:10:14,261 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 17:11:04,558 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 17:11:12,248 [ERROR] [mlmodel.views:32] [wrapper] HTTPError: 404 Client Error: Not Found for url: https://m.facebook.com/https://www.facebook.com/salonemonet at 2024-04-30 17:11:12.248937
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 177, in predict_view
+    posts = scrape_facebook(str(input_link), 20)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 79, in scrape_facebook
+    for post in get_posts(username, pages=10):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\facebook_scraper.py", line 1132, in _generic_get_posts
+    for i, page in zip(counter, iter_pages_fn()):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\page_iterators.py", line 95, in generic_iter_pages
+    response = request_fn(next_url)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\facebook_scraper.py", line 897, in get
+    response.raise_for_status()
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://m.facebook.com/https://www.facebook.com/salonemonet
+2024-04-30 17:11:12,265 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 17:11:40,246 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 17:11:47,146 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 3248
+2024-04-30 17:11:51,648 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 17:34:06,288 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 17:34:36,349 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 17:34:38,225 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 17:34:44,390 [ERROR] [mlmodel.views:32] [wrapper] LoginRequired: A login (cookies) is required to see this page at 2024-04-30 17:34:44.390731
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 177, in predict_view
+    posts = scrape_facebook(str(input_link), 20)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 79, in scrape_facebook
+    for post in get_posts(username, base_url = burl, start_url = surl, pages=10):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\facebook_scraper.py", line 1132, in _generic_get_posts
+    for i, page in zip(counter, iter_pages_fn()):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\page_iterators.py", line 95, in generic_iter_pages
+    response = request_fn(next_url)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\facebook_scraper\facebook_scraper.py", line 960, in get
+    raise exceptions.LoginRequired(
+facebook_scraper.exceptions.LoginRequired: A login (cookies) is required to see this page
+2024-04-30 17:34:44,435 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 17:34:56,033 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 17:35:05,887 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 17:35:10,514 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 18:04:27,066 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 18:09:16,947 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 19:03:16,011 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 19:03:46,972 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 19:03:52,019 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 19:04:47,284 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 19:04:47,457 [INFO] [django.server:212] [log_message] "GET /static/style.css HTTP/1.1" 304 0
+2024-04-30 19:04:49,498 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 19:05:06,880 [ERROR] [mlmodel.views:32] [wrapper] Forbidden: 403 Forbidden
+453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.twitter.com/en/portal/product at 2024-04-30 19:05:06.880332
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 181, in predict_view
+    posts = scrape_tweets(input_link, 3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 84, in scrape_tweets
+    tweets = api.user_timeline(screen_name=username)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\api.py", line 33, in wrapper
+    return method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\api.py", line 414, in user_timeline
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.twitter.com/en/portal/product
+2024-04-30 19:05:06,907 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 19:16:23,363 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 19:16:50,292 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 19:16:51,688 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 19:17:10,224 [ERROR] [mlmodel.views:32] [wrapper] Forbidden: 403 Forbidden
+453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.twitter.com/en/portal/product at 2024-04-30 19:17:10.224746
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 181, in predict_view
+    posts = scrape_tweets(input_link, 3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 86, in scrape_tweets
+    tweets = api.user_timeline(screen_name=username)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\api.py", line 33, in wrapper
+    return method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\api.py", line 46, in wrapper
+    return method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\api.py", line 414, in user_timeline
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\api.py", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.twitter.com/en/portal/product
+2024-04-30 19:17:10,255 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 19:34:47,196 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 19:34:48,740 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 19:38:11,900 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 19:38:16,633 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 19:43:24,625 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 19:43:57,193 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 19:43:59,167 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 19:44:02,076 [ERROR] [mlmodel.views:32] [wrapper] AttributeError: 'Client' object has no attribute 'search_tweets' at 2024-04-30 19:44:02.076351
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 181, in predict_view
+    posts = scrape_tweets(input_link, 3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 91, in scrape_tweets
+    tweets = client.search_tweets(query=query, max_results=max_tweets)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Client' object has no attribute 'search_tweets'
+2024-04-30 19:44:02,094 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 19:44:13,804 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 19:44:18,212 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 19:44:44,805 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 19:44:46,431 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 19:44:50,935 [ERROR] [mlmodel.views:32] [wrapper] Forbidden: 403 Forbidden
+When authenticating requests to the Twitter API v2 endpoints, you must use keys and tokens from a Twitter developer App that is attached to a Project. You can create a project via the developer portal. at 2024-04-30 19:44:50.935881
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 181, in predict_view
+    posts = scrape_tweets(input_link, 3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 91, in scrape_tweets
+    tweets = client.search_recent_tweets(query=query, max_results=max_tweets)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\client.py", line 1266, in search_recent_tweets
+    return self._make_request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+When authenticating requests to the Twitter API v2 endpoints, you must use keys and tokens from a Twitter developer App that is attached to a Project. You can create a project via the developer portal.
+2024-04-30 19:44:50,972 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 19:47:35,457 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 19:47:40,172 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-04-30 19:48:08,984 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-04-30 19:48:09,922 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-04-30 19:48:14,699 [ERROR] [mlmodel.views:32] [wrapper] Forbidden: 403 Forbidden
+When authenticating requests to the Twitter API v2 endpoints, you must use keys and tokens from a Twitter developer App that is attached to a Project. You can create a project via the developer portal. at 2024-04-30 19:48:14.699519
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 27, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 181, in predict_view
+    posts = scrape_tweets(input_link, 3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 86, in scrape_tweets
+    tweets = client.search_recent_tweets(query=query, max_results=max_tweets)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\client.py", line 1266, in search_recent_tweets
+    return self._make_request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\client.py", line 129, in _make_request
+    response = self.request(method, route, params=request_params,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\tweepy\client.py", line 100, in request
+    raise Forbidden(response)
+tweepy.errors.Forbidden: 403 Forbidden
+When authenticating requests to the Twitter API v2 endpoints, you must use keys and tokens from a Twitter developer App that is attached to a Project. You can create a project via the developer portal.
+2024-04-30 19:48:14,738 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2545
+2024-04-30 19:52:03,032 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-04-30 19:52:08,096 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 18:02:31,010 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 18:03:05,836 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 18:03:07,434 [WARNING] [django.request:241] [log_response] Not Found: /favicon.ico
+2024-05-01 18:03:07,450 [WARNING] [django.server:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4048
+2024-05-01 18:03:10,325 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-05-01 18:03:15,818 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4117
+2024-05-01 18:03:19,066 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8879
+2024-05-01 18:03:19,130 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/intp.jpg HTTP/1.1" 304 0
+2024-05-01 18:03:31,633 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4127
+2024-05-01 18:03:35,132 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 7917
+2024-05-01 18:03:41,235 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4117
+2024-05-01 18:04:23,918 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 18:04:27,621 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 18:05:03,048 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 18:05:04,757 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 7897
+2024-05-01 18:05:11,576 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6782
+2024-05-01 18:05:16,307 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8999
+2024-05-01 18:05:16,524 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/infj.jpg HTTP/1.1" 200 47755
+2024-05-01 18:06:37,312 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\models.py changed, reloading.
+2024-05-01 18:06:41,545 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 18:40:26,990 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 18:47:19,180 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 18:59:59,145 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:01:17,031 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 19:01:18,898 [ERROR] [mlmodel.views:36] [wrapper] NoReverseMatch: Reverse for 'save_to_history' not found. 'save_to_history' is not a valid view function or pattern name. at 2024-05-01 19:01:18.898331
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 31, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 254, in predict_view
+    return render(request, 'predict_type.html', {'form': form, 'prediction': prediction,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'save_to_history' not found. 'save_to_history' is not a valid view function or pattern name.
+2024-05-01 19:01:18,998 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 2545
+2024-05-01 19:01:56,437 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\urls.py changed, reloading.
+2024-05-01 19:02:00,281 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:03:09,204 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 19:03:10,258 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 8517
+2024-05-01 19:03:14,656 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4117
+2024-05-01 19:03:16,806 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 9711
+2024-05-01 19:06:33,208 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6782
+2024-05-01 19:06:38,021 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11014
+2024-05-01 19:07:03,632 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 2689
+2024-05-01 19:12:09,153 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 19:14:20,373 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 19:14:59,399 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:15:24,851 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 19:15:26,027 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 9263
+2024-05-01 19:15:30,513 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4117
+2024-05-01 19:15:33,461 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10844
+2024-05-01 19:15:55,724 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 2654
+2024-05-01 19:17:24,062 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 19:17:28,315 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:17:56,519 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 19:17:57,667 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 9263
+2024-05-01 19:18:00,400 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4117
+2024-05-01 19:18:02,517 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10844
+2024-05-01 19:18:24,577 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 2654
+2024-05-01 19:21:35,251 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 19:21:39,543 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:22:17,535 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 19:22:18,427 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 9263
+2024-05-01 19:22:21,029 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4117
+2024-05-01 19:22:23,344 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10844
+2024-05-01 19:22:44,723 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 2654
+2024-05-01 19:23:16,224 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 19:23:20,682 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:24:05,800 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 2654
+2024-05-01 19:24:57,109 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 19:25:51,116 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:26:34,439 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 2654
+2024-05-01 19:28:15,633 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 19:28:20,440 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:30:41,100 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 96629
+2024-05-01 19:33:00,491 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 96424
+2024-05-01 19:34:05,918 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 96427
+2024-05-01 19:34:33,316 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 96413
+2024-05-01 19:48:05,888 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-05-01 19:48:10,426 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 19:48:36,731 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 96415
+2024-05-01 19:48:49,211 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6782
+2024-05-01 19:48:54,938 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11986
+2024-05-01 19:51:27,085 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12136
+2024-05-01 19:52:35,696 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12250
+2024-05-01 19:52:57,709 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12254
+2024-05-01 19:56:15,237 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12099
+2024-05-01 19:57:08,421 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12705
+2024-05-01 19:58:09,285 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12449
+2024-05-01 19:59:29,063 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 15258
+2024-05-01 19:59:33,676 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 62606
+2024-05-01 20:19:12,745 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:19:43,927 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 20:19:47,662 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11400
+2024-05-01 20:19:50,011 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4117
+2024-05-01 20:19:52,497 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 15170
+2024-05-01 20:19:54,060 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-01 20:19:54,078 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11400
+2024-05-01 20:23:04,961 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 20:23:09,588 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:23:46,245 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2684
+2024-05-01 20:23:49,157 [INFO] [django.server:212] [log_message] "GET /accounts/login/ HTTP/1.1" 200 3297
+2024-05-01 20:23:54,573 [INFO] [django.server:212] [log_message] "POST /accounts/login/ HTTP/1.1" 302 0
+2024-05-01 20:23:54,771 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2604
+2024-05-01 20:23:56,790 [ERROR] [mlmodel.views:37] [wrapper] NameError: name 'user' is not defined at 2024-05-01 20:23:56.790339
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 32, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 93, in profile_view
+    predictions = Prediction.objects.filter(user=user).order_by('-prediction_date')
+                                                 ^^^^
+NameError: name 'user' is not defined
+2024-05-01 20:23:56,813 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 2549
+2024-05-01 20:24:35,935 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 20:24:39,904 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:25:04,022 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2604
+2024-05-01 20:25:05,088 [ERROR] [mlmodel.views:37] [wrapper] TemplateDoesNotExist: user_profile.html at 2024-05-01 20:25:05.088843
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 32, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 95, in profile_view
+    return render(request, 'user_profile.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_profile.html
+2024-05-01 20:25:05,114 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 2549
+2024-05-01 20:25:19,805 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 20:25:24,070 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:25:48,031 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2604
+2024-05-01 20:25:48,872 [ERROR] [mlmodel.views:37] [wrapper] TemplateDoesNotExist: profile.html at 2024-05-01 20:25:48.872715
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 32, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 95, in profile_view
+    return render(request, 'profile.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+2024-05-01 20:25:48,897 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 2549
+2024-05-01 20:27:00,455 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 20:27:04,294 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:27:34,036 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2604
+2024-05-01 20:27:34,872 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5737
+2024-05-01 20:27:34,936 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/scale_1200.jpg HTTP/1.1" 304 0
+2024-05-01 20:27:46,554 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2604
+2024-05-01 20:27:47,869 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11404
+2024-05-01 20:27:52,420 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6786
+2024-05-01 20:27:59,320 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 14568
+2024-05-01 20:27:59,512 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/estj.jpg HTTP/1.1" 200 44848
+2024-05-01 20:28:05,393 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4121
+2024-05-01 20:28:08,120 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 15174
+2024-05-01 20:28:09,852 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-01 20:28:10,070 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11404
+2024-05-01 20:28:12,542 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5737
+2024-05-01 20:28:14,469 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5737
+2024-05-01 20:28:16,219 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5737
+2024-05-01 20:28:18,268 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5737
+2024-05-01 20:28:21,418 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2604
+2024-05-01 20:28:23,154 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11404
+2024-05-01 20:31:00,108 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 20:31:04,702 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:31:32,018 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4121
+2024-05-01 20:31:34,858 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 15174
+2024-05-01 20:31:37,366 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-01 20:31:37,602 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11404
+2024-05-01 20:32:19,549 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5737
+2024-05-01 20:35:42,201 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 20:35:46,561 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:36:19,864 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\urls.py changed, reloading.
+2024-05-01 20:36:24,600 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:38:43,961 [ERROR] [mlmodel.views:37] [wrapper] TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+widget_tweaks at 2024-05-01 20:38:43.961697
+Traceback (most recent call last):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 32, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 44, in homepage_view
+    return render(request, 'home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1096, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+widget_tweaks
+2024-05-01 20:38:44,580 [ERROR] [django.request:241] [log_response] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 32, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 44, in homepage_view
+    return render(request, 'home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1096, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+widget_tweaks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 38, in wrapper
+    return render(request, 'error_page.html', {'status_code': 500, 'error_message': 'Internal Server Error'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1096, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+widget_tweaks
+2024-05-01 20:38:44,600 [ERROR] [django.server:212] [log_message] "GET / HTTP/1.1" 500 315314
+2024-05-01 20:39:34,336 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:39:58,245 [ERROR] [mlmodel.views:37] [wrapper] TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+widget_tweaks at 2024-05-01 20:39:58.245217
+Traceback (most recent call last):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 32, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 44, in homepage_view
+    return render(request, 'home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1096, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+widget_tweaks
+2024-05-01 20:39:58,832 [ERROR] [django.request:241] [log_response] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 32, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 44, in homepage_view
+    return render(request, 'home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1096, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+widget_tweaks
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 38, in wrapper
+    return render(request, 'error_page.html', {'status_code': 500, 'error_message': 'Internal Server Error'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1096, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+widget_tweaks
+2024-05-01 20:39:58,844 [ERROR] [django.server:212] [log_message] "GET / HTTP/1.1" 500 315451
+2024-05-01 20:41:30,957 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:42:05,172 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2605
+2024-05-01 20:42:07,566 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-01 20:42:11,866 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2605
+2024-05-01 20:42:13,633 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11405
+2024-05-01 20:42:16,059 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4122
+2024-05-01 20:42:19,866 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 15175
+2024-05-01 20:42:22,116 [ERROR] [mlmodel.views:37] [wrapper] NameError: name 'timezone' is not defined at 2024-05-01 20:42:22.116081
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 32, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 147, in save_to_history
+    prediction_date=timezone.now(),
+                    ^^^^^^^^
+NameError: name 'timezone' is not defined
+2024-05-01 20:42:22,132 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 200 2550
+2024-05-01 20:43:09,836 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 20:43:14,613 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 20:43:40,405 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2605
+2024-05-01 20:43:41,675 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11405
+2024-05-01 20:43:44,409 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4122
+2024-05-01 20:43:46,505 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 15175
+2024-05-01 20:43:48,184 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-01 20:43:48,425 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11405
+2024-05-01 20:43:55,841 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 6452
+2024-05-01 20:49:07,385 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 20:49:12,253 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 21:03:03,246 [ERROR] [mlmodel.views:38] [wrapper] NoReverseMatch: Reverse for 'delete_prediction' not found. 'delete_prediction' is not a valid view function or pattern name. at 2024-05-01 21:03:03.246841
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 96, in profile_view
+    return render(request, 'userprofile/profile.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_prediction' not found. 'delete_prediction' is not a valid view function or pattern name.
+2024-05-01 21:03:03,298 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 2550
+2024-05-01 21:04:34,631 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\urls.py changed, reloading.
+2024-05-01 21:04:39,535 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 21:05:20,966 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 21:05:25,773 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 21:05:53,264 [ERROR] [mlmodel.views:38] [wrapper] NoReverseMatch: Reverse for 'delete_prediction' with arguments '(1,)' not found. 1 pattern(s) tried: ['delete_prediction/\\Z'] at 2024-05-01 21:05:53.264158
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 96, in profile_view
+    return render(request, 'userprofile/profile.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_prediction' with arguments '(1,)' not found. 1 pattern(s) tried: ['delete_prediction/\\Z']
+2024-05-01 21:05:53,305 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 2550
+2024-05-01 21:05:55,120 [ERROR] [mlmodel.views:38] [wrapper] NoReverseMatch: Reverse for 'delete_prediction' with arguments '(1,)' not found. 1 pattern(s) tried: ['delete_prediction/\\Z'] at 2024-05-01 21:05:55.120121
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 96, in profile_view
+    return render(request, 'userprofile/profile.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_prediction' with arguments '(1,)' not found. 1 pattern(s) tried: ['delete_prediction/\\Z']
+2024-05-01 21:05:55,133 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 2550
+2024-05-01 21:07:01,360 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\urls.py changed, reloading.
+2024-05-01 21:07:05,329 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 21:07:28,273 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 6946
+2024-05-01 21:08:22,104 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 6946
+2024-05-01 21:10:16,095 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 6913
+2024-05-01 21:10:24,677 [ERROR] [mlmodel.views:38] [wrapper] NameError: name 'get_object_or_404' is not defined at 2024-05-01 21:10:24.677899
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 208, in delete_prediction
+    prediction = get_object_or_404(Prediction, id=prediction_id)
+                 ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+2024-05-01 21:10:24,677 [INFO] [django.server:212] [log_message] "POST /delete_prediction/1/ HTTP/1.1" 200 2550
+2024-05-01 21:11:16,449 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-01 21:11:20,699 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-01 21:12:12,020 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 7416
+2024-05-01 21:12:15,002 [INFO] [django.server:212] [log_message] "POST /delete_prediction/1/ HTTP/1.1" 302 0
+2024-05-01 21:12:15,218 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-01 21:12:19,063 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-01 21:12:21,562 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-01 21:12:23,884 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2605
+2024-05-01 21:13:11,386 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11405
+2024-05-01 21:13:21,229 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 4122
+2024-05-01 21:13:30,762 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 15175
+2024-05-01 21:13:36,595 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 96580
+2024-05-01 21:13:49,261 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-01 21:13:49,494 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11405
+2024-05-01 21:13:52,194 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 7416
+2024-05-01 21:13:59,176 [INFO] [django.server:212] [log_message] "POST /delete_prediction/2/ HTTP/1.1" 302 0
+2024-05-01 21:13:59,376 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-01 21:14:02,859 [INFO] [django.server:212] [log_message] "GET /profile/settings/ HTTP/1.1" 200 3223
+2024-05-01 21:14:06,592 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-01 21:14:09,035 [INFO] [django.server:212] [log_message] "GET /profile/edit/ HTTP/1.1" 200 4101
+2024-05-01 21:14:14,412 [INFO] [django.server:212] [log_message] "GET /accounts/logout/ HTTP/1.1" 302 0
+2024-05-01 21:14:14,429 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-01 21:14:20,392 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11401
+2024-05-01 21:14:41,921 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 13:06:28,601 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 13:07:32,718 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 13:07:32,848 [INFO] [django.server:212] [log_message] "GET /static/style.css HTTP/1.1" 304 0
+2024-05-24 13:07:33,705 [WARNING] [django.request:241] [log_response] Not Found: /favicon.ico
+2024-05-24 13:07:33,708 [WARNING] [django.server:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4631
+2024-05-24 13:07:36,389 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11401
+2024-05-24 13:07:36,452 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/default.jpg HTTP/1.1" 304 0
+2024-05-24 13:07:45,740 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 11421
+2024-05-24 13:20:30,933 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 13:20:55,384 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 13:20:56,638 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6929
+2024-05-24 13:21:35,799 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6928
+2024-05-24 13:21:58,117 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6766
+2024-05-24 13:22:44,027 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\forms.py changed, reloading.
+2024-05-24 13:22:49,075 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 13:23:05,352 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\forms.py changed, reloading.
+2024-05-24 13:23:08,254 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 13:24:18,907 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\forms.py changed, reloading.
+2024-05-24 13:24:23,706 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 13:27:15,509 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\forms.py changed, reloading.
+2024-05-24 13:27:20,307 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 13:27:46,523 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 13:27:47,809 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6801
+2024-05-24 13:28:07,620 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 13:28:09,587 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6801
+2024-05-24 13:28:13,831 [INFO] [django.server:212] [log_message] "GET /accounts/login/ HTTP/1.1" 200 3298
+2024-05-24 13:28:16,184 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 13:28:17,403 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6801
+2024-05-24 13:59:22,977 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 13:59:45,526 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 13:59:46,847 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6801
+2024-05-24 14:00:02,398 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6792
+2024-05-24 14:00:17,765 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6885
+2024-05-24 14:00:43,356 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-24 14:00:48,403 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:01:20,956 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:01:22,302 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6491
+2024-05-24 14:01:28,238 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6482
+2024-05-24 14:01:34,771 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6575
+2024-05-24 14:02:08,843 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-24 14:02:13,252 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:02:39,841 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8494
+2024-05-24 14:02:40,076 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/infj.jpg HTTP/1.1" 200 47755
+2024-05-24 14:02:42,916 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:02:43,993 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6491
+2024-05-24 14:02:48,219 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6482
+2024-05-24 14:02:52,684 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8494
+2024-05-24 14:03:00,949 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 62606
+2024-05-24 14:03:32,584 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:08:45,611 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:09:09,784 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6681
+2024-05-24 14:09:25,570 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6672
+2024-05-24 14:09:29,301 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8684
+2024-05-24 14:10:46,498 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:10:47,758 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6525
+2024-05-24 14:11:15,529 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6516
+2024-05-24 14:11:17,426 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8528
+2024-05-24 14:11:19,069 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:14:17,326 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6931
+2024-05-24 14:14:54,440 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:15:00,707 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6805
+2024-05-24 14:15:47,599 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-24 14:15:52,037 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:16:34,796 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8763
+2024-05-24 14:16:54,237 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-24 14:16:58,471 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:17:42,109 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:17:43,316 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:17:46,391 [ERROR] [mlmodel.views:38] [wrapper] NameError: name 'uploadd_file' is not defined at 2024-05-24 14:17:46.391635
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 262, in predict_view
+    form = AddPredictionForm(initial={'input_file':uploadd_file,
+                                                   ^^^^^^^^^^^^
+NameError: name 'uploadd_file' is not defined
+2024-05-24 14:17:46,459 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2546
+2024-05-24 14:18:00,847 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-24 14:18:07,503 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:18:51,773 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:20:41,045 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:20:44,496 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6805
+2024-05-24 14:21:29,942 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:21:31,317 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:21:37,825 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6805
+2024-05-24 14:22:08,774 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-24 14:22:13,105 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:22:56,494 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:22:58,335 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:23:02,083 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 6898
+2024-05-24 14:23:05,850 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8817
+2024-05-24 14:23:22,021 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-24 14:23:22,131 [INFO] [django.server:212] [log_message] "GET /accounts/login/?next=/save-to-history/ HTTP/1.1" 200 3298
+2024-05-24 14:24:11,955 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:24:25,507 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:24:43,227 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8781
+2024-05-24 14:24:47,578 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:25:17,008 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-05-24 14:53:35,383 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:54:23,956 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:54:25,796 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:54:49,964 [ERROR] [mlmodel.views:38] [wrapper] OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory. at 2024-05-24 14:54:49.964275
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 243, in predict_view
+    mbti_type = make_prediction(input_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 196, in make_prediction
+    X_data = preprocess_text(sample_text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 186, in preprocess_text
+    sample_text = clean_text(sample_text)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 284, in clean_text
+    nlp = spacy.load("en_core_web_sm")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\spacy\__init__.py", line 51, in load
+    return util.load_model(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\spacy\util.py", line 472, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2024-05-24 14:54:49,995 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2546
+2024-05-24 14:55:11,221 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-05-24 14:55:14,877 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:55:38,906 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:55:40,201 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:56:01,621 [ERROR] [mlmodel.views:38] [wrapper] FileNotFoundError: [Errno 2] No such file or directory: '/media/models/trained_IE.sav' at 2024-05-24 14:56:01.621590
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 243, in predict_view
+    mbti_type = make_prediction(input_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 197, in make_prediction
+    models = load_models()
+             ^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 177, in load_models
+    with open(filename, "rb") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/media/models/trained_IE.sav'
+2024-05-24 14:56:01,659 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2546
+2024-05-24 14:58:00,197 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-05-24 14:58:04,968 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:58:25,414 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-05-24 14:58:27,527 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 14:59:17,371 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 14:59:18,356 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 14:59:38,709 [ERROR] [mlmodel.views:38] [wrapper] ValueError: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')] at 2024-05-24 14:59:38.709309
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 243, in predict_view
+    mbti_type = make_prediction(input_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 198, in make_prediction
+    models = load_models()
+             ^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\utils.py", line 179, in load_models
+    loaded_model = pickle.load(file)
+                   ^^^^^^^^^^^^^^^^^
+  File "sklearn\\tree\\_tree.pyx", line 865, in sklearn.tree._tree.Tree.__setstate__
+  File "sklearn\\tree\\_tree.pyx", line 1571, in sklearn.tree._tree._check_node_ndarray
+ValueError: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2024-05-24 14:59:38,727 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2546
+2024-05-24 15:06:54,930 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 15:07:13,216 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 15:07:14,250 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 6814
+2024-05-24 15:07:51,244 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8435
+2024-05-24 15:07:51,659 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/estj.jpg HTTP/1.1" 200 44848
+2024-05-24 15:09:28,059 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 8422
+2024-05-24 15:09:28,304 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/istp.jpg HTTP/1.1" 200 73151
+2024-05-24 15:11:28,357 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\utils.py changed, reloading.
+2024-05-24 15:11:33,352 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 17:04:27,695 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 17:05:37,513 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 17:05:39,099 [WARNING] [django.request:241] [log_response] Not Found: /favicon.ico
+2024-05-24 17:05:39,099 [WARNING] [django.server:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4631
+2024-05-24 17:05:39,864 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 9551
+2024-05-24 17:13:15,404 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 17:14:08,746 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 17:14:12,130 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10711
+2024-05-24 17:14:12,947 [INFO] [django.server:81] [handle_error] - Broken pipe from ('127.0.0.1', 61616)
+2024-05-24 17:14:45,102 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10599
+2024-05-24 17:15:04,885 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10477
+2024-05-24 17:15:47,665 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10212
+2024-05-24 17:16:08,663 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10296
+2024-05-24 17:16:53,983 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12163
+2024-05-24 17:16:54,247 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/entp.jpg HTTP/1.1" 200 61284
+2024-05-24 17:18:46,222 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12757
+2024-05-24 17:20:21,369 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12536
+2024-05-24 17:21:11,895 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 17:21:13,304 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10315
+2024-05-24 17:22:02,182 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10041
+2024-05-24 17:26:45,361 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11288
+2024-05-24 17:27:37,188 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 11288
+2024-05-24 17:33:01,600 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10515
+2024-05-24 17:34:13,975 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-24 17:34:26,834 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 17:35:10,101 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10515
+2024-05-24 17:35:14,782 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10515
+2024-05-24 17:35:25,321 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10599
+2024-05-24 17:36:21,258 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12385
+2024-05-24 17:36:21,515 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/isfj.jpg HTTP/1.1" 200 44850
+2024-05-24 17:37:35,212 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12385
+2024-05-24 17:43:24,830 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12385
+2024-05-24 17:44:32,376 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 12058
+2024-05-24 17:44:32,856 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/esfp.jpg HTTP/1.1" 200 65300
+2024-05-24 17:47:05,304 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\forms.py changed, reloading.
+2024-05-24 17:47:21,752 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 17:48:28,678 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 17:48:29,771 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10515
+2024-05-24 17:48:31,642 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10515
+2024-05-24 18:11:04,827 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 18:12:10,045 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 18:12:12,447 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10515
+2024-05-24 18:13:14,379 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 14033
+2024-05-24 18:13:14,600 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/istj.jpg HTTP/1.1" 200 45473
+2024-05-24 18:14:18,228 [INFO] [django.server:212] [log_message] "GET /accounts/login/ HTTP/1.1" 200 3298
+2024-05-24 18:14:39,995 [INFO] [django.server:212] [log_message] "GET /accounts/login/ HTTP/1.1" 200 3298
+2024-05-24 18:14:44,799 [INFO] [django.server:212] [log_message] "GET /register/ HTTP/1.1" 200 4572
+2024-05-24 18:15:00,861 [INFO] [django.server:212] [log_message] "GET /register/ HTTP/1.1" 200 4572
+2024-05-24 18:15:08,611 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2685
+2024-05-24 18:15:16,908 [INFO] [django.server:212] [log_message] "GET /register/ HTTP/1.1" 200 4572
+2024-05-24 18:15:18,135 [INFO] [django.server:212] [log_message] "GET /accounts/login/ HTTP/1.1" 200 3298
+2024-05-24 18:15:22,559 [INFO] [django.server:212] [log_message] "POST /accounts/login/ HTTP/1.1" 302 0
+2024-05-24 18:15:22,761 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2605
+2024-05-24 18:15:24,874 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-24 18:15:24,931 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/scale_1200.jpg HTTP/1.1" 304 0
+2024-05-24 18:15:28,892 [INFO] [django.server:212] [log_message] "GET /profile/edit HTTP/1.1" 301 0
+2024-05-24 18:15:29,115 [INFO] [django.server:212] [log_message] "GET /profile/edit/ HTTP/1.1" 200 4101
+2024-05-24 18:15:35,979 [INFO] [django.server:212] [log_message] "GET /profile/settings HTTP/1.1" 301 0
+2024-05-24 18:15:36,212 [INFO] [django.server:212] [log_message] "GET /profile/settings/ HTTP/1.1" 200 3223
+2024-05-24 18:16:15,938 [INFO] [django.server:212] [log_message] "GET /profile/settings/ HTTP/1.1" 200 3232
+2024-05-24 18:16:34,051 [INFO] [django.server:212] [log_message] "GET /profile/settings/ HTTP/1.1" 200 3233
+2024-05-24 18:17:14,099 [INFO] [django.server:212] [log_message] "GET /profile/settings/ HTTP/1.1" 200 3233
+2024-05-24 18:17:18,609 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-24 18:17:27,176 [INFO] [django.server:212] [log_message] "GET /profile/edit/ HTTP/1.1" 200 4101
+2024-05-24 18:17:32,117 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-24 18:17:37,045 [INFO] [django.server:212] [log_message] "GET /profile/settings/ HTTP/1.1" 200 3233
+2024-05-24 18:17:39,112 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5738
+2024-05-24 18:17:47,348 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2605
+2024-05-24 18:17:48,818 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10519
+2024-05-24 18:17:52,680 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2605
+2024-05-24 18:19:10,524 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2606
+2024-05-24 18:19:14,512 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5739
+2024-05-24 18:19:17,301 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2606
+2024-05-24 18:19:18,662 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10520
+2024-05-24 18:19:23,876 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2606
+2024-05-24 18:20:22,383 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2601
+2024-05-24 18:20:26,467 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10515
+2024-05-24 18:20:30,938 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5734
+2024-05-24 18:20:32,391 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2601
+2024-05-24 18:20:34,181 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10515
+2024-05-24 18:20:42,158 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10599
+2024-05-24 18:21:23,677 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10597
+2024-05-24 18:21:35,014 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-24 18:21:36,384 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5732
+2024-05-24 18:21:39,295 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-24 18:22:27,241 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-24 18:22:29,817 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-24 18:22:31,617 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5732
+2024-05-24 18:22:34,999 [INFO] [django.server:212] [log_message] "GET /accounts/logout/ HTTP/1.1" 302 0
+2024-05-24 18:22:35,019 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2679
+2024-05-24 18:22:36,539 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10509
+2024-05-24 18:44:02,733 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 18:47:22,656 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 18:52:56,004 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2679
+2024-05-24 18:52:57,427 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10081
+2024-05-24 18:55:12,134 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10503
+2024-05-24 18:55:32,129 [ERROR] [mlmodel.views:38] [wrapper] NameError: name 'sample_text' is not defined at 2024-05-24 18:55:32.129513
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 252, in predict_view
+    linguistic_analysis = ling_analysis(sample_text)
+                                        ^^^^^^^^^^^
+NameError: name 'sample_text' is not defined
+2024-05-24 18:55:32,151 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2540
+2024-05-24 18:55:50,195 [INFO] [django.utils.autoreload:266] [trigger_reload] C:\Users\lizal\mysite\mlmodel\views.py changed, reloading.
+2024-05-24 18:55:58,375 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-24 18:57:39,732 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2679
+2024-05-24 18:57:41,304 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10081
+2024-05-24 18:57:45,920 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10503
+2024-05-24 18:58:04,307 [ERROR] [mlmodel.views:38] [wrapper] ValueError: Need 3 values to unpack in for loop; got 2.  at 2024-05-24 18:58:04.307628
+Traceback (most recent call last):
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 33, in wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\mysite\mlmodel\views.py", line 260, in predict_view
+    return render(request, 'predict_type.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lizal\anaconda3\envs\webapp\Lib\site-packages\django\template\defaulttags.py", line 230, in render
+    raise ValueError(
+ValueError: Need 3 values to unpack in for loop; got 2. 
+2024-05-24 18:58:04,350 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 2540
+2024-05-24 18:58:40,895 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2679
+2024-05-24 18:58:42,033 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10081
+2024-05-24 18:58:46,433 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10503
+2024-05-24 18:59:00,683 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13646
+2024-05-24 18:59:00,943 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/entj.jpg HTTP/1.1" 200 78351
+2024-05-24 18:59:12,718 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 100678
+2024-05-24 19:02:21,265 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-24 19:02:21,524 [INFO] [django.server:212] [log_message] "GET /accounts/login/?next=/save-to-history/ HTTP/1.1" 200 3292
+2024-05-24 19:02:25,909 [INFO] [django.server:212] [log_message] "POST /accounts/login/?next=/save-to-history/ HTTP/1.1" 302 0
+2024-05-24 19:02:26,082 [INFO] [django.server:212] [log_message] "GET /save-to-history/ HTTP/1.1" 302 0
+2024-05-24 19:02:26,254 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-24 19:02:29,922 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5732
+2024-05-24 19:02:33,520 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-24 19:02:34,808 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-24 19:02:38,587 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10507
+2024-05-24 19:02:50,000 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13650
+2024-05-24 19:05:22,951 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-24 19:05:23,171 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-24 19:05:25,255 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 7399
+2024-05-24 19:09:00,214 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599

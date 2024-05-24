@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% load widget_tweaks %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mt-3">Personality Profiling</h1>
+    
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="personality-profiling-tab" data-toggle="tab" href="#personality-profiling" role="tab" aria-controls="personality-profiling" aria-selected="true">Personality Profiling</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="general-text-analysis-tab" data-toggle="tab" href="#general-text-analysis" role="tab" aria-controls="general-text-analysis" aria-selected="false">General Text Analysis</a>
+            </li>
+        </ul>
+        
+         <div class="tab-content" id="myTabContent">
+        <!-- Personality Profiling Content -->
+        <div class="tab-pane fade show active" id="personality-profiling" 
+        role="tabpanel" aria-labelledby="personality-profiling-tab">
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="image-container">
+                                <img src="{{ image_name }}" class="img-fluid img-thumbnail">
+                                <div class="quote">
+                                    <p style="font-size: 18px; font-style: italic;">{{ quote }}</p>
+                                </div>
+                            </div>
+                            <label for="file-description" style="font-weight: bold; font-size: larger;">
+                                Personality Description:
+                            </label>
+                            <p>{{ prediction }}
+                                {% if link %}
+                                    <a href="{{ link }}">Read more</a>
+                                {% endif %}
+                            </p>
+                            
+                             <div class="row">
+                             <!-- Form for saving to PDF -->
+                             <div class="col-auto">
+                                 <form method="POST" action="{% url 'save_to_pdf' %}">
+                                     {% csrf_token %}
+                                     <input type="hidden" name="image_name" value="{{ image_name }}">
+                                     <input type="hidden" name="quote" value="{{ quote }}">
+                                     <input type="hidden" name="prediction" value="{{ prediction }}">
+                                     <input type="hidden" name="link" value="{{ link }}">
+                                     <button type="submit" class="btn mt-2 custom-btn">
+                                     Save to File</button>
+                                 </form>
+                             </div>
+                         
+                             <!-- Form for saving to history -->
+                             <div class="col-auto">
+                                 <form method="POST" action="{% url 'save_to_history' %}">
+                                     {% csrf_token %}
+                                     <input type="hidden" name="description" value="{{ prediction }}">
+                                     <input type="hidden" name="mbti_type" value="{{ mbti_type }}">
+                                     <button type="submit" class="btn mt-2 custom-btn">
+                                     Save to History</button>
+                                 </form>
+                             </div>
+                         </div>
+                        </div>
+                        <div class="col-md-6">
+                            <form id="uploadForm" method="POST" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                <!-- input file -->
+                                <div class="form-group">
+                                    <label for="file-upload">Upload File:</label>
+                                    <input type="file" id="file-upload" name="file_upload" class="form-control"> 
+                                </div>
+                                <!-- input text -->
+                                <div class="form-group">
+                                    <label for="input-link">Input text:</label>
+                                    {{ form.input_link|add_class:"form-control" }}
+                                </div>
+                                <button type="submit" class="btn btn-outline-primary mt-4">Make prediction</button>
+                            </form>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- General Text Analysis Content -->
+            <div class="tab-pane fade" id="general-text-analysis" role="tabpanel" aria-labelledby="general-text-analysis-tab">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Emotion Analysis Column -->
+                            <div class="col-md-6 mb-4">
+                                <h2 class="text-primary">Sentiment and Emotion Analysis</h2>
+                                <p class="text-muted">
+                                Sentiment analysis helps to understand the 
+                                overall feeling expressed in the text. 
+                                Emotion analysis goes deeper to identify 
+                                specific emotions such as joy, sadness, anger, and fear.</p>
+                                
+                                {% for emotion, score in emotion_analysis %}
+                                    <h6 class="font-weight-bold">{{ emotion }}: 
+                                    <span class="text-primary">{{ score }}</span></h6>
+                                {% endfor %}
+                                  
+                            </div>
+                            <!-- Linguistic Analysis Column -->
+                            <div class="col-md-6 mb-4">
+                                <h2 class="text-primary">Linguistic Analysis</h2>
+                                <p class="text-muted">Let's explore 
+                                the linguistic features of the text.</p>
+                                
+                                {% for feature, score in linguistic_analysis %}
+                                <h6 class="font-weight-bold">{{ feature }}: 
+                                <span class="text-primary">{{ score }}</span></h6>
+                                {% endfor %}
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+<style>
+
+.custom-btn {
+    background-color: rgba(0, 128, 128, 0.4);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: rgba(0, 128, 128, 0.6);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Handle tab switching
+    const tabElements = document.querySelectorAll('#myTab a');
+    tabElements.forEach(tab => {
+        tab.addEventListener('click', function(event) {
+            event.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const tabContents = document.querySelectorAll('.tab-pane');
+            tabContents.forEach(content => {
+                content.classList.remove('show', 'active');
+                if (content.id === targetId) {
+                    content.classList.add('show', 'active');
+                }
+            });
+        });
+    });
+
+    // Auto-submit form on file upload
+    document.getElementById('file-upload').addEventListener('change', function() {
+        console.log('File selected, submitting form...');
+        document.getElementById('uploadForm').submit();
+    });
+});
+</script>
+
+{% endblock %}
+
+

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="card border-danger mt-5">
+        <div class="card-header bg-danger text-white">
+          <h1 class="mb-0">Error {{ status_code }}</h1>
+        </div>
+        <div class="card-body">
+          <p class="lead">{{ error_message }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+

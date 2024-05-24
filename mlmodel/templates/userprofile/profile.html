@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<style>
+    /* Styles for the settings button */
+    .settings-button {
+        font-size: 24px; /* Increase the font size */
+        color: #007bff; /* Bootstrap primary color */
+        padding: 0; /* Remove padding */
+    }
+
+    /* Center the profile content */
+    .profile-container {
+        margin-top: 30px;
+        margin-bottom: 0;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Style for the card */
+    .card {
+        border: none;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    /* Style for the profile image */
+    .profile-image {
+        width: 100%;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    /* Style for buttons */
+    .profile-button {
+        margin-bottom: 10px;
+    }
+
+    /* Flexbox for right alignment */
+    .settings-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+</style>
+
+<div class="profile-container">
+    <div class="card">
+        <div class="card-body">
+            <div class="settings-container">
+                <!-- Settings button -->
+                <a href="settings" class="btn settings-button">
+                    <i class="fas fa-cog"></i>
+                </a>
+            </div>
+            <h2 class="card-title mb-4">My Account</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{{ user_profile.avatar.url }}" alt="Avatar" class="profile-image">
+                    <!-- Button to edit profile -->
+                    <a href="edit" class="btn btn-primary btn-sm profile-button">Edit Account</a>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="fw-bold">Username:</p>
+                        </div>
+                        <div class="col-8">
+                            <p>{{ user_profile.user.username }}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="fw-bold">Date of birth:</p>
+                        </div>
+                        <div class="col-8">
+                            <p>{{ user_profile.date_of_birth }}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="fw-bold">About:</p>
+                        </div>
+                        <div class="col-8">
+                            <p>{{ user_profile.about }}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="fw-bold">Number of predictions:</p>
+                        </div>
+                        <div class="col-8">
+                            <p>{{ user_profile.count }} predictions made</p>
+                        </div>
+                    </div>
+
+                    <!-- Add a section for prediction history -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <h4>Prediction History</h4>
+                            <ul>
+                                {% for prediction in predictions %}
+                                    <li style="position: relative;">
+                                        <form method="POST" action="{% url 'delete_prediction' prediction.id %}" style="display: inline;">
+                                            {% csrf_token %}
+                                            <!-- Small, transparent delete button (cross icon) in the right corner -->
+                                            <button type="submit" class="btn btn-sm" style="position: absolute; top: 0; right: 0; background: none; border: none; padding: 0; color: #d9534f;">
+                                                <i class="fas fa-times"></i> <!-- Font Awesome cross icon -->
+                                            </button>
+                                        </form>
+                                        <div style="display: inline;">
+                                            Date: {{ prediction.prediction_date }} <br>
+                                            Result: {{ prediction.final_result }} <br>
+                                            Description: {{ prediction.description }}
+                                        </div>
+                                    </li>
+                                {% empty %}
+                                    <li>No predictions yet.</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

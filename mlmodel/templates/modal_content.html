@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load widget_tweaks %}
+
+{% block content %}
+<form method="POST" id="modalForm" style="margin-top: 10px;">
+    {% csrf_token %}
+    <div class="row">
+        {% for post in posts %}
+            <div class="col-md-4 mb-3">
+                <div class="card shadow rounded" style="height: 140px;">
+                    <div class="card-header py-2"  style="background-color: #F0F8FF;">
+                        <!-- Wrap checkbox and label in form-check -->
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="post_checkbox" value="{{ post.text }}" id="postCheckbox{{ forloop.counter }}">
+                            <label class="form-check-label" for="postCheckbox{{ forloop.counter }}">
+                                <strong>{{ post.title }}</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="card-body post-text" id="postText{{ forloop.counter }}">
+                        {{ post.text }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+   
+    
+    <div class="d-flex justify-content-center mt-4">
+        <button type="submit" name="action" value="make_prediction"
+        class="btn btn-success btn-md shadow-sm">Submit</button>
+    </div>
+
+</form>
+
+<script>
+    // Function to add a scroll bar if post text is longer than 30 words
+    function addScrollBarToLongPosts() {
+        const postTexts = document.querySelectorAll('.post-text');
+        
+        postTexts.forEach((postText) => {
+            const wordCount = postText.innerText.split(' ').length;
+
+            if (wordCount > 30) {
+                postText.style.maxHeight = '140px';
+                postText.style.overflowY = 'auto';
+            }
+        });
+    }
+
+    // Call the function when the page loads
+    document.addEventListener('DOMContentLoaded', () => {
+        addScrollBarToLongPosts();
+    });
+</script>
+
+{% endblock %}
+
+
+

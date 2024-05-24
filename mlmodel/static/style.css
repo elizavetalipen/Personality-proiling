@@ -1,0 +1,9 @@
+
+.navbar {
+    height: 70px;
+    background-color: rgb(16, 88, 88);
+}
+
+.navbar-nav li a {
+    font-size: 18px;
+  }
