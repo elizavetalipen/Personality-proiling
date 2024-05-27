@@ -1999,3 +1999,75 @@ ValueError: Need 3 values to unpack in for loop; got 2.
 2024-05-24 19:05:23,171 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
 2024-05-24 19:05:25,255 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 7399
 2024-05-24 19:09:00,214 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 15:19:45,083 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-26 15:22:16,501 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-26 15:23:29,252 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 15:23:30,258 [WARNING] [django.request:241] [log_response] Not Found: /favicon.ico
+2024-05-26 15:23:30,258 [WARNING] [django.server:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4631
+2024-05-26 15:23:33,990 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 7399
+2024-05-26 15:23:41,873 [INFO] [django.server:212] [log_message] "POST /delete_prediction/3/ HTTP/1.1" 302 0
+2024-05-26 15:23:42,074 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5732
+2024-05-26 15:23:47,439 [INFO] [django.server:212] [log_message] "GET /accounts/logout/ HTTP/1.1" 302 0
+2024-05-26 15:23:47,456 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2679
+2024-05-26 15:23:48,739 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10081
+2024-05-26 15:24:24,169 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10165
+2024-05-26 15:24:28,904 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10503
+2024-05-26 15:24:43,535 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13646
+2024-05-26 15:24:43,799 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/entj.jpg HTTP/1.1" 200 78351
+2024-05-26 15:35:43,082 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10243
+2024-05-26 15:35:55,866 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13388
+2024-05-26 15:35:55,967 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/enfj.jpg HTTP/1.1" 200 106354
+2024-05-26 15:37:24,794 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13299
+2024-05-26 15:37:25,172 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/estp.jpg HTTP/1.1" 200 44289
+2024-05-26 15:37:41,538 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10503
+2024-05-26 15:37:59,746 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13646
+2024-05-26 15:38:17,133 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10243
+2024-05-26 15:38:29,366 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13388
+2024-05-26 15:39:44,342 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13652
+2024-05-26 15:40:49,706 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2679
+2024-05-26 15:40:52,138 [INFO] [django.server:212] [log_message] "GET /register/ HTTP/1.1" 200 4566
+2024-05-26 15:41:30,797 [INFO] [django.server:212] [log_message] "POST /register/ HTTP/1.1" 200 4760
+2024-05-26 15:41:54,878 [INFO] [django.server:212] [log_message] "POST /register/ HTTP/1.1" 200 4750
+2024-05-26 15:42:28,581 [INFO] [mlmodel.views:60] [register_view] New user Elizaveta registered at 2024-05-26 15:42:28.581468
+2024-05-26 15:42:28,596 [INFO] [django.server:212] [log_message] "POST /register/ HTTP/1.1" 302 0
+2024-05-26 15:42:28,783 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 15:42:31,297 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5709
+2024-05-26 15:42:31,401 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/unnamed.jpg HTTP/1.1" 200 28528
+2024-05-26 15:42:35,147 [INFO] [django.server:212] [log_message] "GET /profile/edit/ HTTP/1.1" 200 4054
+2024-05-26 15:43:59,456 [INFO] [mlmodel.views:111] [edit_profile_view] User Elizaveta edited profile at 2024-05-26 15:43:59.456002
+2024-05-26 15:43:59,456 [INFO] [django.server:212] [log_message] "POST /profile/edit/ HTTP/1.1" 302 0
+2024-05-26 15:43:59,653 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5755
+2024-05-26 15:43:59,772 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/img1_sAHrl2b.jpg HTTP/1.1" 200 499795
+2024-05-26 15:44:05,590 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5755
+2024-05-26 15:44:05,650 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/img1_sAHrl2b.jpg HTTP/1.1" 304 0
+2024-05-26 15:44:19,622 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 15:44:20,916 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-26 15:47:15,707 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10242
+2024-05-26 15:47:29,705 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13301
+2024-05-26 15:47:50,254 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 5755
+2024-05-26 15:47:50,319 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/img1_sAHrl2b.jpg HTTP/1.1" 304 0
+2024-05-26 15:47:53,204 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 15:47:55,054 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-26 15:48:00,470 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10507
+2024-05-26 15:48:17,379 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13650
+2024-05-26 15:48:20,468 [INFO] [django.server:212] [log_message] "POST /save-to-history/ HTTP/1.1" 302 0
+2024-05-26 15:48:20,677 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-26 15:48:24,018 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 7423
+2024-05-26 15:48:24,086 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/img1_sAHrl2b.jpg HTTP/1.1" 304 0
+2024-05-26 15:48:38,484 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 15:48:50,799 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 15:48:52,916 [INFO] [django.server:212] [log_message] "GET /accounts/logout/ HTTP/1.1" 302 0
+2024-05-26 15:48:52,933 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2679
+2024-05-26 15:48:55,071 [INFO] [django.server:212] [log_message] "GET /accounts/login/ HTTP/1.1" 200 3292
+2024-05-26 15:49:15,868 [INFO] [django.server:212] [log_message] "POST /accounts/login/ HTTP/1.1" 302 0
+2024-05-26 15:49:16,047 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 23:07:21,915 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-26 23:08:59,112 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 23:09:00,048 [WARNING] [django.request:241] [log_response] Not Found: /favicon.ico
+2024-05-26 23:09:00,048 [WARNING] [django.server:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4631
+2024-05-26 23:09:05,469 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 7423
+2024-05-26 23:09:05,537 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/img1_sAHrl2b.jpg HTTP/1.1" 304 0
+2024-05-26 23:10:02,349 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-26 23:10:04,576 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-26 23:10:09,571 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10507
+2024-05-26 23:10:27,331 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13650
