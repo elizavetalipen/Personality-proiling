@@ -2071,3 +2071,27 @@ ValueError: Need 3 values to unpack in for loop; got 2.
 2024-05-26 23:10:04,576 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
 2024-05-26 23:10:09,571 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10507
 2024-05-26 23:10:27,331 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13650
+2024-05-27 08:41:34,492 [INFO] [django.utils.autoreload:668] [run_with_reloader] Watching for file changes with StatReloader
+2024-05-27 08:43:40,447 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-27 08:43:41,248 [WARNING] [django.request:241] [log_response] Not Found: /favicon.ico
+2024-05-27 08:43:41,248 [WARNING] [django.server:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4631
+2024-05-27 08:43:52,133 [INFO] [django.server:212] [log_message] "GET /profile/ HTTP/1.1" 200 7423
+2024-05-27 08:43:52,188 [INFO] [django.server:212] [log_message] "GET /media/images/userdata/img1_sAHrl2b.jpg HTTP/1.1" 304 0
+2024-05-27 08:43:56,847 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-27 08:43:59,014 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-27 08:44:09,675 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10242
+2024-05-27 08:44:23,336 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13301
+2024-05-27 08:44:36,488 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-27 08:46:50,200 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-27 08:46:53,585 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10262
+2024-05-27 08:47:05,788 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13449
+2024-05-27 08:47:06,034 [INFO] [django.server:212] [log_message] "GET /media/images/types_pics/isfj.jpg HTTP/1.1" 200 44850
+2024-05-27 08:48:22,470 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-27 08:51:51,975 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-27 08:51:55,692 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10273
+2024-05-27 08:52:08,290 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13459
+2024-05-27 08:52:19,573 [INFO] [django.server:212] [log_message] "GET / HTTP/1.1" 200 2599
+2024-05-27 09:37:59,506 [INFO] [django.server:212] [log_message] "GET /predict/ HTTP/1.1" 200 10085
+2024-05-27 09:38:05,444 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 10273
+2024-05-27 09:38:23,111 [INFO] [django.server:212] [log_message] "POST /predict/ HTTP/1.1" 200 13459
+2024-05-27 09:38:29,545 [INFO] [django.server:212] [log_message] "POST /save-to-pdf/ HTTP/1.1" 200 58816
